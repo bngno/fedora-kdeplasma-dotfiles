@@ -1,3 +1,6 @@
+[Compositing]
+AllowTearing=false
+
 [Desktops]
 Id_1=7bbbd39f-93e1-40f1-bcb4-6ff78909d642
 Id_2=d0eff556-0b13-47b5-b07c-6db234a19cd4
@@ -37,6 +40,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"floating","tiles":[{"height":0.9826388888888888,"width":0.9945312499999999,"x":5.702903427273753e-17,"y":5.2258544713801314e-17}]}
 
+[Tiling][148173cd-2b58-44ab-85b4-514e8b847b63][f11aac08-3ddd-49e5-81ae-2be96cb6d7c1]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][6bbb8eee-71d8-4f87-a450-b7db5f11ea67][4d522577-3074-44f7-adbe-37e8fb404cc2]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -49,6 +56,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=0
 tiles={"layoutDirection":"floating","tiles":[]}
 
+[Tiling][7bbbd39f-93e1-40f1-bcb4-6ff78909d642][f11aac08-3ddd-49e5-81ae-2be96cb6d7c1]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][a9d19f1f-a8d3-4393-a452-fa485761432e][]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -56,6 +67,13 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][a9d19f1f-a8d3-4393-a452-fa485761432e][4d522577-3074-44f7-adbe-37e8fb404cc2]
 padding=4
 tiles={"layoutDirection":"floating","tiles":[{"height":0.5034722222222214,"width":0.3941406249999967,"x":5.5402731014009277e-17,"y":4.705437428587089e-17}]}
+
+[Tiling][a9d19f1f-a8d3-4393-a452-fa485761432e][f11aac08-3ddd-49e5-81ae-2be96cb6d7c1]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][cd44d3ec-f1c3-57a0-a780-d87725c582e3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d02c035d-eef0-5c68-aa2f-2e83d0ba08b1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -68,11 +86,16 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"floating","tiles":[{"height":0.4340277777777771,"width":0.35976562499999665,"x":7.24247051220317e-17,"y":5.399326818977812e-17},{"height":0.570833333333332,"width":0.4707031249999932,"x":1.3010426069826053e-16,"y":0.4291666666666656}]}
 
+[Tiling][d0eff556-0b13-47b5-b07c-6db234a19cd4][f11aac08-3ddd-49e5-81ae-2be96cb6d7c1]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][f7a65edf-9f71-5a46-b74b-e950721faf58]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
 EnablePrimarySelection=false
+InputMethod[$d]
 VirtualKeyboardEnabled=true
 
 [Windows]
@@ -89,3 +112,4 @@ Scale=1
 BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=_
+ButtonsOnRight=H
