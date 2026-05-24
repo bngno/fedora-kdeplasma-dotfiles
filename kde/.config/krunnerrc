@@ -1,0 +1,11 @@
+[General]
+ActivateWhenTypingOnDesktop=false
+FreeFloating=true
+historyBehavior=Disabled
+
+[Plugins]
+baloosearchEnabled=true
+krunner_powerdevilEnabled=false
+
+[Plugins][Favorites]
+plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings

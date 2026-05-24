@@ -1,0 +1,54 @@
+[CompactMode]
+PreviewSize=16
+
+[ContentDisplay]
+UseShortRelativeDates=false
+
+[ContextMenu]
+ShowAddToPlaces=false
+
+[DetailsMode]
+ExpandableFolders=false
+IconSize=22
+LeftPadding=0
+PreviewSize=22
+RightPadding=0
+UseSystemFont=false
+
+[General]
+ConfirmClosingMultipleTabs=false
+EditableUrl=true
+OpenExternallyCalledFolderInNewTab=true
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+UseTabForSwitchingSplitView=true
+Version=202
+ViewPropsTimestamp=2026,5,24,17,23,13.522
+
+[IconsMode]
+IconSize=16
+PreviewSize=16
+
+[InformationPanel]
+dateFormat=ShortFormat
+previewsShown=false
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+
+[MainWindow]
+MenuBar=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+
+[Notification Messages]
+ConfirmRenameFileType=false
+
+[PlacesPanel]
+IconSize=16
+
+[PreviewSettings]
+Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,ffmpegthumbs,gsf-office
