@@ -13,6 +13,9 @@ Name_4=comms
 Number=4
 Rows=1
 
+[Effect-diminactive]
+Strength=30
+
 [Effect-overview]
 BorderActivate=9
 
@@ -22,6 +25,7 @@ TabletMode=off
 [Plugins]
 blurEnabled=true
 contrastEnabled=false
+diminactiveEnabled=true
 screenedgeEnabled=false
 shakecursorEnabled=false
 slideEnabled=false
@@ -95,7 +99,6 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Wayland]
 EnablePrimarySelection=false
-InputMethod[$d]
 VirtualKeyboardEnabled=true
 
 [Windows]

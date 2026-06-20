@@ -15,6 +15,10 @@ PreviewSize=22
 RightPadding=0
 UseSystemFont=false
 
+[ExtractDialog]
+2560x1440 screen: Height=720
+2560x1440 screen: Width=1576
+
 [General]
 ConfirmClosingMultipleTabs=false
 EditableUrl=true

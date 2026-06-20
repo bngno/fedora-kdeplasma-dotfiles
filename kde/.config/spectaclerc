@@ -1,7 +1,7 @@
 [Annotations]
-annotationToolType=6
+annotationToolType=2
 arrowShadow=false
-arrowStrokeColor=0,255,127
+arrowStrokeColor=170,255,127
 arrowStrokeWidth=3
 blurStrength=0
 ellipseFillColor=0,255,127
@@ -26,7 +26,7 @@ quitAfterSaveCopyExport=true
 
 [ImageSave]
 imageCompressionQuality=100
-lastImageSaveLocation=file:///home/bngno/Pictures/Screenshots/Screenshot_20260519_214816.png
+lastImageSaveLocation=file:///home/bngno/Pictures/Screenshots/Screenshot_20260530_050352.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
