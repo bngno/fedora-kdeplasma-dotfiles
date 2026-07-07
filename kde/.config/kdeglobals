@@ -21,13 +21,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=85,88,92
+BackgroundAlternate=125,126,127
 BackgroundNormal=41,44,48
-DecorationFocus=104,107,111
-DecorationHover=104,107,111
-ForegroundActive=104,107,111
+DecorationFocus=162,162,162
+DecorationHover=162,162,162
+ForegroundActive=162,162,162
 ForegroundInactive=161,169,177
-ForegroundLink=196,198,202
+ForegroundLink=162,162,162
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -37,11 +37,11 @@ ForegroundVisited=155,89,182
 [Colors:Complementary]
 BackgroundAlternate=30,87,116
 BackgroundNormal=32,35,38
-DecorationFocus=104,107,111
-DecorationHover=104,107,111
-ForegroundActive=104,107,111
+DecorationFocus=162,162,162
+DecorationHover=162,162,162
+ForegroundActive=162,162,162
 ForegroundInactive=161,169,177
-ForegroundLink=196,198,202
+ForegroundLink=162,162,162
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -51,11 +51,11 @@ ForegroundVisited=155,89,182
 [Colors:Header]
 BackgroundAlternate=32,35,38
 BackgroundNormal=41,44,48
-DecorationFocus=104,107,111
-DecorationHover=104,107,111
-ForegroundActive=104,107,111
+DecorationFocus=162,162,162
+DecorationHover=162,162,162
+ForegroundActive=162,162,162
 ForegroundInactive=161,169,177
-ForegroundLink=196,198,202
+ForegroundLink=162,162,162
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -77,27 +77,27 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Selection]
-BackgroundAlternate=78,81,84
-BackgroundNormal=78,81,84
-DecorationFocus=104,107,111
-DecorationHover=104,107,111
-ForegroundActive=104,107,111
-ForegroundInactive=255,255,255
-ForegroundLink=76,78,81
+BackgroundAlternate=119,120,120
+BackgroundNormal=119,120,120
+DecorationFocus=162,162,162
+DecorationHover=162,162,162
+ForegroundActive=162,162,162
+ForegroundInactive=0,0,0
+ForegroundLink=118,118,118
 ForegroundNegative=176,55,69
 ForegroundNeutral=198,92,0
-ForegroundNormal=255,255,255
+ForegroundNormal=0,0,0
 ForegroundPositive=23,104,57
 ForegroundVisited=155,89,182
 
 [Colors:Tooltip]
 BackgroundAlternate=32,35,38
 BackgroundNormal=41,44,48
-DecorationFocus=104,107,111
-DecorationHover=104,107,111
-ForegroundActive=104,107,111
+DecorationFocus=162,162,162
+DecorationHover=162,162,162
+ForegroundActive=162,162,162
 ForegroundInactive=161,169,177
-ForegroundLink=196,198,202
+ForegroundLink=162,162,162
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -107,11 +107,11 @@ ForegroundVisited=155,89,182
 [Colors:View]
 BackgroundAlternate=29,31,34
 BackgroundNormal=20,22,24
-DecorationFocus=104,107,111
-DecorationHover=104,107,111
-ForegroundActive=104,107,111
+DecorationFocus=162,162,162
+DecorationHover=162,162,162
+ForegroundActive=162,162,162
 ForegroundInactive=161,169,177
-ForegroundLink=196,198,202
+ForegroundLink=162,162,162
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -121,11 +121,11 @@ ForegroundVisited=155,89,182
 [Colors:Window]
 BackgroundAlternate=41,44,48
 BackgroundNormal=32,35,38
-DecorationFocus=104,107,111
-DecorationHover=104,107,111
-ForegroundActive=104,107,111
+DecorationFocus=162,162,162
+DecorationHover=162,162,162
+ForegroundActive=162,162,162
 ForegroundInactive=161,169,177
-ForegroundLink=196,198,202
+ForegroundLink=162,162,162
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
@@ -133,9 +133,10 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-AccentColor=104,107,111
+AccentColor=162,162,162
+ColorScheme=BreezeDark
 ColorSchemeHash=9d38eb71ded8ff549da26d57d7cbab9164da243a
-LastUsedCustomAccentColor=104,107,111
+LastUsedCustomAccentColor=162,162,162
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 UseSystemBell=true
@@ -168,7 +169,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=140
-View Style=Detail
+View Style=DetailTree
 
 [KScreen]
 ScreenScaleFactors=DP-2=1;

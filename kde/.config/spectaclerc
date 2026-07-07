@@ -1,8 +1,8 @@
 [Annotations]
-annotationToolType=2
+annotationToolType=4
 arrowShadow=false
-arrowStrokeColor=170,255,127
-arrowStrokeWidth=3
+arrowStrokeColor=0,255,127
+arrowStrokeWidth=2
 blurStrength=0
 ellipseFillColor=0,255,127
 ellipseStrokeColor=0,255,127
@@ -14,6 +14,8 @@ numberShadow=false
 rectangleFillColor=255,0,0,0
 rectangleShadow=false
 rectangleStrokeColor=0,255,127
+rectangleStrokeWidth=1
+textFontColor=255,255,255
 
 [General]
 clipboardGroup=PostScreenshotCopyImage
@@ -26,7 +28,7 @@ quitAfterSaveCopyExport=true
 
 [ImageSave]
 imageCompressionQuality=100
-lastImageSaveLocation=file:///home/bngno/Pictures/Screenshots/Screenshot_20260530_050352.png
+lastImageSaveLocation=file:///home/bngno/Pictures/Screenshots/Screenshot_20260629_152446.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]

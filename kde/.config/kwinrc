@@ -30,6 +30,9 @@ screenedgeEnabled=false
 shakecursorEnabled=false
 slideEnabled=false
 
+[TabBox]
+HighlightWindows=false
+
 [TabBoxAlternative]
 ActivitiesMode=0
 DesktopMode=2
@@ -99,11 +102,13 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Wayland]
 EnablePrimarySelection=false
+InputMethod[$d]
 VirtualKeyboardEnabled=true
+VirtualKeyboardMode=1
 
 [Windows]
 AutoRaise=true
-AutoRaiseInterval=450
+AutoRaiseInterval=350
 ElectricBorderDelay=25
 ElectricBorderMaximize=false
 FocusPolicy=FocusFollowsMouse
