@@ -17,8 +17,9 @@ rm -f ~/.config/dolphinrc
 # kitty
 rm -rf ~/.config/kitty
 
-# zed
-rm -rf ~/.config/zed
+# code
+rm -rf ~/.config/Code/User/keybindings.json
+rm -rf ~/.config/Code/User/settings.json
 
 # stow config files
 stow kde
