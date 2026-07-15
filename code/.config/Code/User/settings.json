@@ -44,4 +44,14 @@
     "window.customTitleBarVisibility": "never",
     "workbench.editor.restoreViewState": false,
     "diffEditor.renderSideBySide": false,
+    "notebook.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "scm.diffDecorationsGutterPattern": {
+        "added": true
+    },
+    "scm.diffDecorationsGutterWidth": 4,
+    "editor.showFoldingControls": "never",
+    "window.restoreWindows": "none",
+    "security.workspace.trust.emptyWindow": false,
 }
