@@ -155,7 +155,7 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.color
+wallpaperplugin=org.kde.image
 
 [Containments][29][ConfigDialog]
 DialogHeight=630
@@ -166,6 +166,11 @@ positions={"2560x1440":[]}
 
 [Containments][29][Wallpaper][org.kde.color][General]
 Color=17,19,20
+
+[Containments][29][Wallpaper][org.kde.image][General]
+FillMode=0
+Image=file:///home/bngno/Pictures/wallpapers/desktop-bg.jpg
+SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=

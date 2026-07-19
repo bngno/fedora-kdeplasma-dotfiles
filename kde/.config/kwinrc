@@ -14,7 +14,7 @@ Number=4
 Rows=1
 
 [Effect-diminactive]
-Strength=30
+Strength=40
 
 [Effect-overview]
 BorderActivate=9
@@ -102,7 +102,6 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Wayland]
 EnablePrimarySelection=false
-InputMethod[$d]
 VirtualKeyboardEnabled=true
 VirtualKeyboardMode=1
 
