@@ -12,7 +12,7 @@ ExpandableFolders=false
 IconSize=22
 LeftPadding=0
 PreviewSize=22
-RightPadding=0
+RightPadding=1
 UseSystemFont=false
 
 [ExtractDialog]
@@ -56,6 +56,3 @@ IconSize=16
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,ffmpegthumbs,gsf-office
-
-[Search]
-Location=Everywhere

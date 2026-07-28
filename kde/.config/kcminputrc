@@ -1,0 +1,22 @@
+[Libinput][10429][2375][XPPen Deco 01 V3 Pen]
+TabletToolRelativeMode=false
+
+[Libinput][13652][62858][Compx VXE NordicMouse 1K Dongle]
+PointerAcceleration=-0.200
+PointerAccelerationProfile=1
+
+[Libinput][13652][62860][compx VXE R1 PRO]
+PointerAcceleration=-0.200
+PointerAccelerationProfile=1
+
+[Libinput][39572][3][CyLei Dactyl_62_L Mouse]
+PointerAccelerationProfile=1
+
+[Libinput][39572][4][CyLei Dactyl_62_R Mouse]
+PointerAccelerationProfile=1
+
+[Mouse]
+X11LibInputXAccelProfileFlat=true
+XLbInptPointerAcceleration=-0.2
+cursorSize=18
+cursorTheme=breeze_cursors
