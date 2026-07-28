@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+
+# color formatiing
+BOLD_SUCCESS=$'\033[1;32m'
+RESET_FORMATTING=$'\033[0m'
+
+
+# body
+set -euo pipefail # exits if a command with non-zero status is called
+
+# clean existing config files
+# kde plasma
+rm -f  \
+    "$HOME"/.config/dolphinrc \
+    "$HOME"/.config/kcminputrc \
+    "$HOME"/.config/kdeglobals \
+    "$HOME"/.config/kglobalshortcutsrc \
+    "$HOME"/.config/krunnerrc \
+    "$HOME"/.config/kwinrc \
+    "$HOME"/.config/plasma-org.kde.plasma.desktop-appletsrc \
+    "$HOME"/.config/plasmarc \
+    "$HOME"/.config/spectaclerc \
+    "$HOME"/.config/systemsettingsrc
+
+# kitty
+rm -rf "$HOME"/.config/kitty
+
+# code
+rm -rf \
+    "$HOME"/.config/Code/User/keybindings.json \
+    "$HOME"/.config/Code/User/settings.json
+
+# stow config files
+stow --restow kde
+stow --restow kitty
+stow --restow zed
+stow --restow scripts
+
+# clean plasma cache
+rm -rf "$HOME"/.cache/*
+
+printf '\n%sConfiguration files setup is finished!%s' \
+    "$BOLD_SUCCESS" "$RESET_FORMATTING"
