@@ -119,7 +119,6 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][20][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][Applets][25]
@@ -147,37 +146,15 @@ shownItems=org.kde.plasma.volume,org.kde.plasma.keyboardlayout
 [Containments][2][General]
 AppletOrder=31;4;28;7;30
 
-[Containments][29]
+[Containments][35]
 ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
-activityId=b44f93dc-d6dd-484d-a9f1-8fcbd0a627ea
+activityId=c22bc060-1410-4e63-a63e-39316b19de3d
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
-
-[Containments][29][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][29][General]
-positions={"2560x1440":[]}
-
-[Containments][29][Wallpaper][org.kde.color][General]
-Color=17,19,20
-
-[Containments][29][Wallpaper][org.kde.image][General]
-FillMode=0
-Image=file:///home/bngno/Pictures/wallpapers/desktop-bg.jpg
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][35]
-ItemGeometries-2560x1440=
-ItemGeometriesHorizontal=
-activityId=c22bc060-1410-4e63-a63e-39316b19de3d
-lastScreen=0
 wallpaperplugin=org.kde.image
 
 [Containments][35][ConfigDialog]

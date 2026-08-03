@@ -134,7 +134,8 @@ ForegroundVisited=184,133,180
 
 [General]
 AccentColor=141,141,141
-ColorSchemeHash=0add454624bb3b1cd5488c57894fcb9660badd18
+ColorScheme=bngno-kde_6-7-color-scheme
+ColorSchemeHash=9d38eb71ded8ff549da26d57d7cbab9164da243a
 LastUsedCustomAccentColor=141,141,141
 TerminalApplication=kitty
 TerminalService=kitty.desktop

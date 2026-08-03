@@ -1,5 +1,5 @@
 [Annotations]
-annotationToolType=2
+annotationToolType=4
 arrowShadow=false
 arrowStrokeColor=0,255,127
 arrowStrokeWidth=2
@@ -13,7 +13,7 @@ numberFillColor=0,255,127
 numberShadow=false
 rectangleFillColor=255,0,0,0
 rectangleShadow=false
-rectangleStrokeColor=0,255,127
+rectangleStrokeColor=255,85,0
 rectangleStrokeWidth=1
 textFontColor=255,255,255
 
