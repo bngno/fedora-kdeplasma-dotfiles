@@ -1,2 +1,6 @@
-# ignore files
-zed/.config/zed/settings_backup.json
+# ignore folders
+code/.config/Code/
+
+# whitelist files
+!code/.config/Code/User/settings.json
+!code/.config/Code/User/keybindings.json
