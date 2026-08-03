@@ -3,6 +3,7 @@ _k_friendly_name=Activity Manager
 switch-to-activity-23b452a5-a410-47b0-8127-3e8066698bde=none,none,Switch to activity "Default"
 switch-to-activity-309ca6d7-7278-4e17-a615-4c03f6bfbc66=none,none,Switch to activity "Default"
 switch-to-activity-b44f93dc-d6dd-484d-a9f1-8fcbd0a627ea=none,none,Switch to activity "Default"
+switch-to-activity-c22bc060-1410-4e63-a63e-39316b19de3d=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -205,7 +206,7 @@ Window to Screen 4=none,none,Move Window to Screen 4
 Window to Screen 5=none,none,Move Window to Screen 5
 Window to Screen 6=none,none,Move Window to Screen 6
 Window to Screen 7=none,none,Move Window to Screen 7
-_k_friendly_name=KWin
+_k_friendly_name=System Settings
 disableInputCapture=Meta+Shift+Esc,Meta+Shift+Esc,Disable Active Input Capture
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Zoom In

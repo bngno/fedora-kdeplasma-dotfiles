@@ -173,6 +173,22 @@ FillMode=0
 Image=file:///home/bngno/Pictures/wallpapers/desktop-bg.jpg
 SlidePaths=/usr/share/wallpapers/
 
+[Containments][35]
+ItemGeometries-2560x1440=
+ItemGeometriesHorizontal=
+activityId=c22bc060-1410-4e63-a63e-39316b19de3d
+lastScreen=0
+wallpaperplugin=org.kde.image
+
+[Containments][35][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][35][Wallpaper][org.kde.image][General]
+DynamicMode=2
+Image=file:///usr/share/wallpapers/Mountain/#dark
+SlidePaths=/usr/share/wallpapers/
+
 [ScreenMapping]
 itemsOnDisabledScreens=
 screenMapping=
