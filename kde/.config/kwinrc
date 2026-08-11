@@ -40,6 +40,10 @@ LayoutName=big_icons
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][148173cd-2b58-44ab-85b4-514e8b847b63][4a4bab93-3d8b-45fa-96ac-29bcd1d26138]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][148173cd-2b58-44ab-85b4-514e8b847b63][4d522577-3074-44f7-adbe-37e8fb404cc2]
 padding=4
 tiles={"layoutDirection":"floating","tiles":[{"height":0.9826388888888888,"width":0.9945312499999999,"x":5.702903427273753e-17,"y":5.2258544713801314e-17}]}
@@ -60,6 +64,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][7bbbd39f-93e1-40f1-bcb4-6ff78909d642][4a4bab93-3d8b-45fa-96ac-29bcd1d26138]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][7bbbd39f-93e1-40f1-bcb4-6ff78909d642][4d522577-3074-44f7-adbe-37e8fb404cc2]
 padding=0
 tiles={"layoutDirection":"floating","tiles":[]}
@@ -73,6 +81,10 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][a9d19f1f-a8d3-4393-a452-fa485761432e][]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a9d19f1f-a8d3-4393-a452-fa485761432e][4a4bab93-3d8b-45fa-96ac-29bcd1d26138]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -95,6 +107,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d0eff556-0b13-47b5-b07c-6db234a19cd4][]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d0eff556-0b13-47b5-b07c-6db234a19cd4][4a4bab93-3d8b-45fa-96ac-29bcd1d26138]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 

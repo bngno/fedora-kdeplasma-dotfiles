@@ -290,7 +290,3 @@ _launch=none
 
 [services][org.kde.krunner.desktop]
 _launch=Meta+Space
-
-[services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=none
-OpenWithoutScreenshot=none
