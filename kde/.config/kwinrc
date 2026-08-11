@@ -30,9 +30,6 @@ screenedgeEnabled=false
 shakecursorEnabled=false
 slideEnabled=false
 
-[TabBox]
-HighlightWindows=false
-
 [TabBoxAlternative]
 ActivitiesMode=0
 DesktopMode=2
@@ -127,6 +124,7 @@ AutoRaiseInterval=350
 ElectricBorderDelay=25
 ElectricBorderMaximize=false
 FocusPolicy=FocusFollowsMouse
+NextFocusPrefersMouse=true
 
 [Xwayland]
 Scale=1
