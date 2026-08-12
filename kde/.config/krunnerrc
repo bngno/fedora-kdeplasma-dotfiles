@@ -5,7 +5,11 @@ historyBehavior=Disabled
 
 [Plugins]
 baloosearchEnabled=true
+krunner_dictionaryEnabled=false
 krunner_powerdevilEnabled=false
+krunner_sessionsEnabled=false
+krunner_shellEnabled=false
+krunner_webshortcutsEnabled=false
 
 [Plugins][Favorites]
 plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings
