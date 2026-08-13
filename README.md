@@ -9,7 +9,7 @@ git clone https://github.com/bngno/fedora-kde-dotfiles.git ~/dotfiles
 ```bash
 cd ~/dotfiles
 chmod +x install
-install
+setup
 ```
 > [!IMPORTANT]
 > To use the given command, the **stow** package needs to be installed at first. 
