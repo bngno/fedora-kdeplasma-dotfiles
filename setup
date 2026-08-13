@@ -38,8 +38,12 @@ rm -rf \
 # stow config files
 stow kde
 stow kitty
+stow applications
 stow code
 stow scripts
+
+# update applications database with new entries
+update-desktop-database "$HOME"/.local/share/applications
 
 # clean plasma cache
 rm -rf "$HOME"/.cache/*
