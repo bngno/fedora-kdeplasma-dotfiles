@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+
+# color formatiing
+BOLD_WARNING=$'\033[1;33m'
+BOLD_SUCCESS=$'\033[1;32m'
+RESET_FORMATTING=$'\033[0m'
+
+
+# body
+printf '\n%sStarting system maintenance!%s\n' \
+    "$BOLD_WARNING" "$RESET_FORMATTING"
+
+sudo dnf up --refresh -y
+
+printf '\n%sStarting dnf autoremoval!%s\n' \
+    "$BOLD_WARNING" "$RESET_FORMATTING"
+
+sudo dnf autoremove -y
+
+printf '\n%sStarting flatpak update!%s\n' \
+    "$BOLD_WARNING" "$RESET_FORMATTING"
+
+flatpak update
+
+printf '\n%sFinished system maintenance.%s\n' \
+    "$BOLD_SUCCESS" "$RESET_FORMATTING"

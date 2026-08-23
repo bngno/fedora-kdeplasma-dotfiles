@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+# color formatting
+BOLD_SUCCESS=$'\033[1;32m'
+RESET_FORMATTING=$'\033[0m'
+
+sudo systemctl start docker
+
+printf '\n%sStarted docker service!%s\n' \
+    "$BOLD_SUCCESS" "$RESET_FORMATTING"
