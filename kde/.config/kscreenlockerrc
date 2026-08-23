@@ -1,0 +1,7 @@
+[Daemon]
+Autolock=false
+Timeout=0
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/bngno/dotfiles/wallpapers/kde-moutain_5120x2880.png
+PreviewImage=file:///home/bngno/dotfiles/wallpapers/kde-moutain_5120x2880.png
