@@ -37,8 +37,10 @@ rm -rf \
 
 # stow config files
 stow kde
-stow kitty
+stow wallpapers
+stow fonts
 stow applications
+stow kitty
 stow code
 stow scripts
 
