@@ -5,6 +5,8 @@
 BOLD_SUCCESS=$'\033[1;32m'
 RESET_FORMATTING=$'\033[0m'
 
+
+# body
 sudo systemctl start docker
 
 printf '\n%sStarted docker service!%s\n' \

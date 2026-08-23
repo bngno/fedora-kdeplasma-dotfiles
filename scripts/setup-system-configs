@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
 
-# color formatiing
+# color formatting
+BOLD_WARNING=$'\033[1;33m'
 BOLD_SUCCESS=$'\033[1;32m'
 RESET_FORMATTING=$'\033[0m'
 
 
-# clean existing config files
+# body
+printf '\n%sConfiguration files setup was started!%s' \
+    "$BOLD_WARNING" "$RESET_FORMATTING"
+
 # kde plasma
 rm -f  \
     "$HOME"/.config/breezerc \
@@ -50,5 +54,5 @@ update-desktop-database "$HOME"/.local/share/applications
 # clean plasma cache
 rm -rf "$HOME"/.cache/*
 
-printf '\n%sConfiguration files setup is finished!%s' \
+printf '\n%sConfiguration files setup is finished.%s' \
     "$BOLD_SUCCESS" "$RESET_FORMATTING"
