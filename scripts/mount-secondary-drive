@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# color formatiing
+BOLD_WARNING=$'\033[1;33m'
+BOLD_SUCCESS=$'\033[1;32m'
+RESET_FORMATTING=$'\033[0m'
+
+# map secondary drive's uuid
+UUID=$(lsblk -no UUID /dev/nvme1n1p1)
+
+
+# body
+printf '\n%sStarting secondary drive mount configuration!%s' \
+    "$BOLD_WARNING" "$RESET_FORMATTING"
+
+sudo mkdir -p /mnt/auxiliar # creates mount point
+
+echo "UUID=$UUID /mnt/auxiliar ext4 defaults 0 2" | sudo tee -a /etc/fstab
+
+sudo mount /mnt/auxiliar # mounts newly added drive
+
+printf '\n%sFinished secondary drive mount configuration.%s\n' \
+    "$BOLD_SUCCESS" "$RESET_FORMATTING"
