@@ -46,10 +46,13 @@ stow fonts
 stow applications
 stow kitty
 stow code
-stow scripts
+stow system-scripts
 
 # update applications database with new entries
 update-desktop-database "$HOME"/.local/share/applications
+
+# install custom font files
+fc-cache -f
 
 # clean plasma cache
 rm -rf "$HOME"/.cache/*
