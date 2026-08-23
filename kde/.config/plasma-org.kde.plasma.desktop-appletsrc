@@ -173,7 +173,7 @@ DialogWidth=810
 
 [Containments][35][Wallpaper][org.kde.image][General]
 DynamicMode=2
-Image=file:///usr/share/wallpapers/Mountain/#dark
+Image=file:///home/bngno/dotfiles/wallpapers/kde-moutain_5120x2880.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
