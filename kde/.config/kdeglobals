@@ -175,6 +175,9 @@ View Style=Detail
 ScreenScaleFactors=DP-2=1;
 XwaylandClientsScale=true
 
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
 [Locale]
 BinaryUnitDialect=1
 
