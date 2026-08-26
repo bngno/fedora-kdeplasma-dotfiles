@@ -252,13 +252,13 @@ activate task manager entry 10=none,none,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
 activate task manager entry 3=none,Meta+3,Activate Task Manager Entry 3
 activate task manager entry 4=none,Meta+4,Activate Task Manager Entry 4
-activate task manager entry 5=Meta+5,Meta+5,Activate Task Manager Entry 5
-activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
-activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
-activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
-activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate task manager entry 5=none,Meta+5,Activate Task Manager Entry 5
+activate task manager entry 6=none,Meta+6,Activate Task Manager Entry 6
+activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
+activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
+activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 40=none,none,Activate Application Launcher Widget
-clear history=none,none,Clear Notification History
+clear history=Meta+Shift+N,none,Clear Notification History
 clear-history=Meta+Shift+V,none,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
@@ -290,7 +290,3 @@ _launch=none
 
 [services][org.kde.krunner.desktop]
 _launch=Meta+Space
-
-[services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=none
-OpenWithoutScreenshot=none

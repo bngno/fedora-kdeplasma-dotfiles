@@ -41,7 +41,7 @@ previewsShown=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
-Places Icons Static Size=16
+Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
@@ -52,8 +52,8 @@ IconSize=16
 [Notification Messages]
 ConfirmRenameFileType=false
 
-[PlacesPanel]
-IconSize=16
-
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
