@@ -1,57 +1,80 @@
-{
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.activityBar.location": "top",
-    "window.zoomLevel": 0,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.enabled": false,
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorWidth": 2,
-    "editor.fontSize": 12,
-    "editor.multiCursorLimit": 1000,
-    "editor.cursorBlinking": "phase",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.iconTheme": "vs-seti",
-    "editor.fontFamily": "'IBM Plex Mono'",
-    "extensions.ignoreRecommendations": true,
-    "files.autoSave": "afterDelay",
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "editor.rulers": [120],
-    "explorer.compactFolders": false,
-    "editor.renderLineHighlight": "gutter",
+{   
+    // top-level configs
+    "security.workspace.trust.emptyWindow": false,
     "security.workspace.trust.untrustedFiles": "newWindow",
-    "notebook.output.fontFamily": "default",
-    "github.gitAuthentication": false,
-    "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "telemetry.feedback.enabled": false,
     "telemetry.telemetryLevel": "off",
+    "telemetry.feedback.enabled": false,
     "telemetry.editStats.enabled": false,
     "chat.agent.enabled": false,
     "chat.agent.maxRequests": 0,
-    "files.autoGuessEncoding": true,
     "chat.disableAIFeatures": true,
-    "window.customMenuBarAltFocus": false,
-    "window.enableMenuBarMnemonics": false,
-    "workbench.browser.showInTitleBar": false,
-    "workbench.colorTheme": "Min Dark",
-    "window.menuBarVisibility": "hidden",
     "chat.titleBar.signIn.enabled": false,
     "chat.titleBar.openInAgentsWindow.enabled": false,
-    "window.titleBarStyle": "native",
+
+    // workbench
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.browser.showInTitleBar": false,
     "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
-    "window.customTitleBarVisibility": "never",
     "workbench.editor.restoreViewState": false,
-    "diffEditor.renderSideBySide": false,
-    "notebook.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
+    "workbench.activityBar.location": "top",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "Min Dark",
+    
+    // window    
+    "window.restoreWindows": "none",
+    "window.zoomLevel": 0,
+    "window.commandCenter": false,
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "hidden",
+
+    // explorer
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+
+    // editor
+    "editor.padding.top": 5,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.showFoldingControls": "never",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.padding.bottom": 5,
+    "editor.fontSize": 12,
+    "editor.fontFamily": "IBM Plex Mono",
+    "editor.cursorBlinking": "phase",
+    "editor.multiCursorLimit": 1000,
+    "editor.rulers": [120],
+
+    // terminal
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.fontSize": 12,
+
+    // miscellaneous
+    "files.autoSave": "afterDelay",
+    "files.autoGuessEncoding": true,
     "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "diffEditor.renderSideBySide": false,
+
+    // extensions
+    "extensions.ignoreRecommendations": true,
+
+    "github.gitAuthentication": false,
+    
+    "notebook.output.fontFamily": "default",
+    "notebook.insertFinalNewline": true,
+
+    "js/ts.preferences.quoteStyle": "single",
+
+    // scm
     "scm.diffDecorationsGutterPattern": {
         "added": true
     },
-    "scm.diffDecorationsGutterWidth": 4,
-    "editor.showFoldingControls": "never",
-    "window.restoreWindows": "none",
-    "security.workspace.trust.emptyWindow": false,
+    "scm.diffDecorationsGutterWidth": 2,
 }
