@@ -197,8 +197,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Wayland]
 EnablePrimarySelection=false
+InputMethod[$d]
 VirtualKeyboardEnabled=true
-VirtualKeyboardMode=1
+VirtualKeyboardMode=0
 
 [Windows]
 AutoRaise=true
