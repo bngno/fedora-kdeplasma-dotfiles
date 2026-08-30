@@ -29,6 +29,7 @@
     "window.enableMenuBarMnemonics": false,
     "window.titleBarStyle": "native",
     "window.menuBarVisibility": "hidden",
+    "window.customTitleBarVisibility": "never",
 
     // explorer
     "explorer.confirmDelete": false,
@@ -41,7 +42,7 @@
     "editor.minimap.renderCharacters": false,
     "editor.renderLineHighlight": "gutter",
     "editor.showFoldingControls": "never",
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnEnter": "smart",
     "editor.padding.bottom": 5,
     "editor.fontSize": 12,
     "editor.fontFamily": "IBM Plex Mono",
@@ -76,5 +77,5 @@
     "scm.diffDecorationsGutterPattern": {
         "added": true
     },
-    "scm.diffDecorationsGutterWidth": 2,
+    "scm.diffDecorationsGutterWidth": 2
 }
