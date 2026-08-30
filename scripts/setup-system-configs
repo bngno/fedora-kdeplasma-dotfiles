@@ -25,6 +25,7 @@ rm -f  \
     "$HOME"/.config/ktimezonedrc \
     "$HOME"/.config/kwinrc \
     "$HOME"/.config/kxkbrc \
+    "$HOME"/.config/powerdevilrc \
     "$HOME"/.config/plasma-org.kde.plasma.desktop-appletsrc \
     "$HOME"/.config/plasmarc \
     "$HOME"/.config/plasmashellrc \
@@ -59,3 +60,6 @@ rm -rf "$HOME"/.cache/*
 
 printf '\n%sConfiguration files setup is finished.%s' \
     "$BOLD_SUCCESS" "$RESET_FORMATTING"
+
+sleep 5;
+reboot
