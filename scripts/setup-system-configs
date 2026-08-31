@@ -11,43 +11,18 @@ RESET_FORMATTING=$'\033[0m'
 printf '\n%sConfiguration files setup was started!%s' \
     "$BOLD_WARNING" "$RESET_FORMATTING"
 
-# kde plasma
-rm -f  \
-    "$HOME"/.config/breezerc \
-    "$HOME"/.config/dolphinrc \
-    "$HOME"/.config/kcminputrc \
-    "$HOME"/.config/kdeglobals \
-    "$HOME"/.config/kglobalshortcutsrc \
-    "$HOME"/.config/kiorc \
-    "$HOME"/.config/klaunchrc \
-    "$HOME"/.config/krunnerrc \
-    "$HOME"/.config/ksplashrc \
-    "$HOME"/.config/ktimezonedrc \
-    "$HOME"/.config/kwinrc \
-    "$HOME"/.config/kxkbrc \
-    "$HOME"/.config/powerdevilrc \
-    "$HOME"/.config/plasma-org.kde.plasma.desktop-appletsrc \
-    "$HOME"/.config/plasmarc \
-    "$HOME"/.config/plasmashellrc \
-    "$HOME"/.config/spectaclerc \
-    "$HOME"/.config/systemsettingsrc
-
-# kitty
-rm -rf "$HOME"/.config/kitty
-
-# code
-rm -rf \
-    "$HOME"/.config/Code/User/keybindings.json \
-    "$HOME"/.config/Code/User/settings.json
-
 # stow config files
-stow kde
-stow wallpapers
-stow fonts
-stow applications
-stow kitty
-stow code
-stow system-scripts
+stow --adopt \
+    applications \
+    code \
+    fonts \
+    kde \
+    kitty \
+    system-scripts \
+    wallpapers
+
+# discard adopted changes
+git restore .
 
 # update applications database with new entries
 update-desktop-database "$HOME"/.local/share/applications
