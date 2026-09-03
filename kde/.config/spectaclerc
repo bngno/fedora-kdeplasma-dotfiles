@@ -1,5 +1,5 @@
 [Annotations]
-annotationToolType=9
+annotationToolType=2
 arrowShadow=false
 arrowStrokeColor=0,255,127
 arrowStrokeWidth=2
@@ -28,7 +28,7 @@ quitAfterSaveCopyExport=true
 
 [ImageSave]
 imageCompressionQuality=100
-lastImageSaveLocation=file:///home/bngno/Pictures/Screenshots/Screenshot_20260629_152446.png
+lastImageSaveLocation=file:///home/bngno/Pictures/Screenshots/Screenshot_20260831_194933.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]

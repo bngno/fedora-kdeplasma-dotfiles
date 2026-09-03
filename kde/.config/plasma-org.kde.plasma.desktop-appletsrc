@@ -36,14 +36,13 @@ popupWidth=560
 
 [Containments][2][Applets][30][Configuration][Appearance]
 autoFontAndSize=false
-boldText=true
 customDateFormat=MM-dd |
 dateDisplayFormat=BesideTime
 dateFormat=custom
-fontFamily=Adwaita Mono
+fontFamily=IBM Plex Mono
 fontSize=8
-fontStyleName=Bold
-fontWeight=700
+fontStyleName=Medium
+fontWeight=500
 use24hFormat=0
 
 [Containments][2][Applets][30][Configuration][ConfigDialog]
