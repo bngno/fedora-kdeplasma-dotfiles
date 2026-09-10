@@ -16,7 +16,7 @@ printf '\n%sStarting secondary drive mount configuration!%s' \
 
 sudo mkdir -p /mnt/auxiliar # creates mount point
 
-echo "UUID=$UUID /mnt/auxiliar ext4 defaults 0 2" | sudo tee -a /etc/fstab
+echo "UUID=$UUID /mnt/auxiliar ext4 defaults,nofail 0 2" | sudo tee -a /etc/fstab
 
 sudo mount /mnt/auxiliar # mounts newly added drive
 
