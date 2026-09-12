@@ -10,7 +10,7 @@
     "chat.disableAIFeatures": true,
     "chat.titleBar.signIn.enabled": false,
     "chat.titleBar.openInAgentsWindow.enabled": false,
-
+    
     // workbench
     "workbench.startupEditor": "newUntitledFile",
     "workbench.browser.showInTitleBar": false,
@@ -31,11 +31,14 @@
     "window.titleBarStyle": "native",
     "window.menuBarVisibility": "hidden",
     "window.customTitleBarVisibility": "never",
-
+    "window.closeWhenEmpty": true,
+    "window.confirmSaveUntitledWorkspace": false,
+    
     // explorer
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
+    "explorer.autoReveal": false,
 
     // editor
     "editor.padding.top": 5,
@@ -63,20 +66,28 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "diffEditor.renderSideBySide": false,
-
+    "problems.defaultViewMode": "table",
+    "problems.showCurrentInStatus": true,
+    
     // extensions
+    "extensions.autoUpdate": "off",
     "extensions.ignoreRecommendations": true,
-
+    
     "github.gitAuthentication": false,
     
     "notebook.output.fontFamily": "default",
     "notebook.insertFinalNewline": true,
-
+    
     "js/ts.preferences.quoteStyle": "single",
-
+    
+    "html.completion.attributeDefaultValue": "singlequotes",
+    
     // scm
     "scm.diffDecorationsGutterPattern": {
         "added": true
     },
-    "scm.diffDecorationsGutterWidth": 2,
+    "scm.compactFolders": false,
+    "scm.graph.pageSize": 20,
+    "scm.showActionButton": false,
+    "scm.showInputActionButton": false,
 }
