@@ -1,11 +1,12 @@
 [Annotations]
-annotationToolType=3
+annotationToolType=4
 arrowShadow=false
 arrowStrokeColor=0,255,127
 arrowStrokeWidth=2
-blurStrength=0
+blurStrength=0.0718994140625
 ellipseFillColor=0,255,127
 ellipseStrokeColor=0,255,127
+freehandShadow=false
 freehandStrokeColor=0,255,127
 freehandStrokeWidth=2
 lineShadow=false

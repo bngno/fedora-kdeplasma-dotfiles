@@ -140,12 +140,19 @@ LastUsedCustomAccentColor=141,141,141
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 UseSystemBell=true
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=none
+font=Geist,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=Geist,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Geist,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=Geist,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
 Theme=Papirus
 
 [KDE]
-AnimationDurationFactor=0
+AnimationDurationFactor=0.5
 DndBehavior=AlwaysAsk
 LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
@@ -195,6 +202,7 @@ ToolButtonStyleOtherToolbars=NoText
 [WM]
 activeBackground=39,44,49
 activeBlend=252,252,252
+activeFont=Geist,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 activeForeground=252,252,252
 inactiveBackground=32,36,40
 inactiveBlend=161,169,177

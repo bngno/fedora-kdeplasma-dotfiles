@@ -31,10 +31,15 @@ TabletMode=off
 blurEnabled=true
 contrastEnabled=false
 diminactiveEnabled=true
+glideEnabled=true
+magiclampEnabled=true
 overviewEnabled=false
+scaleEnabled=false
 screenedgeEnabled=false
 shakecursorEnabled=false
 slideEnabled=false
+squashEnabled=false
+windowapertureEnabled=false
 
 [TabBoxAlternative]
 ActivitiesMode=0
