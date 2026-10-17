@@ -1,7 +1,17 @@
+[ButtonRebinds][Tablet][XPPen Deco 01 V3]
+0=Key,Space
+7=Key,Ctrl+Z
+
+[ButtonRebinds][TabletTool][XPPen Deco 01 V3 Pen]
+331=MouseButton,272
+332=Key,Control
+
 [Keyboard]
 NumLock=1
 
 [Libinput][10429][2375][XPPen Deco 01 V3 Pen]
+OutputArea=0,0,1,1
+OutputUuid=7b9f5bbf-3db7-4f9e-86c3-d647438c9e7b
 TabletToolRelativeMode=false
 
 [Libinput][13652][62858][Compx VXE NordicMouse 1K Dongle]
@@ -23,3 +33,6 @@ X11LibInputXAccelProfileFlat=true
 XLbInptPointerAcceleration=-0.2
 cursorSize=18
 cursorTheme=breeze_cursors
+
+[Tablet]
+SyncWithMouse=false

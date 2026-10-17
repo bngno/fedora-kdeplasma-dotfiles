@@ -49,26 +49,22 @@ use24hFormat=0
 DialogHeight=630
 DialogWidth=810
 
-[Containments][2][Applets][31]
+[Containments][2][Applets][37]
 immutability=1
 plugin=org.kde.plasma.kicker
 
-[Containments][2][Applets][31][Configuration]
-popupHeight=376
+[Containments][2][Applets][37][Configuration]
+popupHeight=396
 popupWidth=312
 
-[Containments][2][Applets][31][Configuration][ConfigDialog]
+[Containments][2][Applets][37][Configuration][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
-[Containments][2][Applets][31][Configuration][General]
+[Containments][2][Applets][37][Configuration][General]
 customButtonImage=fedora-logo-icon
 favoritesPortedToKAstats=true
-recentOrdering=1
-showRecentApps=false
-showRecentDocs=false
 useCustomButtonImage=true
-useExtraRunners=false
 
 [Containments][2][Applets][7]
 activityId=
@@ -145,7 +141,7 @@ knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.bright
 shownItems=org.kde.plasma.volume,org.kde.plasma.keyboardlayout
 
 [Containments][2][General]
-AppletOrder=31;28;7;30
+AppletOrder=37;28;7;30
 
 [Containments][35]
 ItemGeometries-2560x1440=
