@@ -143,6 +143,7 @@ UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
+fixed=IBM Plex Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 font=Geist,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 menuFont=Geist,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 smallestReadableFont=Geist,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
@@ -160,6 +161,7 @@ ShowIconsInMenuItems=false
 ShowIconsOnPushButtons=false
 contrast=4
 frameContrast=0.2
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -176,7 +178,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=true
 Speedbar Width=140
-View Style=DetailTree
+View Style=Detail
 
 [KScreen]
 ScreenScaleFactors=DP-2=1;

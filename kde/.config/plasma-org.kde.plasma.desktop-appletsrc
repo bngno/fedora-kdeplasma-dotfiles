@@ -55,7 +55,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][37][Configuration]
 popupHeight=396
-popupWidth=312
+popupWidth=677
 
 [Containments][2][Applets][37][Configuration][ConfigDialog]
 DialogHeight=630
@@ -70,7 +70,7 @@ useCustomButtonImage=true
 activityId=
 formfactor=0
 immutability=1
-lastScreen=-1
+lastScreen=0
 location=0
 plugin=org.kde.plasma.systemtray
 popupHeight=432
@@ -125,6 +125,10 @@ plugin=org.kde.plasma.mediacontroller
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][2][Applets][7][Applets][38]
+immutability=1
+plugin=org.kde.plasma.dwellclicker
+
 [Containments][2][Applets][7][Applets][9]
 immutability=1
 plugin=org.kde.plasma.cameraindicator
@@ -135,9 +139,9 @@ DialogWidth=810
 
 [Containments][2][Applets][7][General]
 disabledStatusNotifiers=spotify-client
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.notifications
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.dwellclicker
 hiddenItems=org.kde.plasma.battery
-knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.volume
+knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.dwellclicker
 shownItems=org.kde.plasma.volume,org.kde.plasma.keyboardlayout
 
 [Containments][2][General]
@@ -160,7 +164,7 @@ DialogWidth=810
 
 [Containments][35][Wallpaper][org.kde.image][General]
 DynamicMode=2
-Image=file:///usr/share/wallpapers/ColdRipple/
+Image=file:///home/bngno/dotfiles/wallpapers/photomode_02112026_133300.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
